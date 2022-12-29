@@ -172,7 +172,7 @@
   height: 40px; }
 
 .main {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0)), url(https://apps.studentaffairs.cmu.edu/dining/conceptinfo/conceptAssets/images/sushi%20photo_2000x1000.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0)), url(https://img.freepik.com/fotos-premium/pasarela-madera-fondo-playa_90839-277.jpg?w=2000);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -192,9 +192,14 @@
   flex-direction: row;
   align-items: baseline;
   justify-content: space-evenly; }
-
-.card-img-top {
-  height: 150px !important; }
+  @media screen and (max-width: 990px) {
+    .pedidos {
+      display: flex;
+      flex-direction: column; } }
 
 .card {
   margin: 30px !important; }
+
+.card-img-top {
+  height: 150px !important;
+  width: 150 !important; }
