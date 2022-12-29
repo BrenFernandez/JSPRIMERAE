@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?mo2vqy');
+    src:  url('../fonts/icomoon.eot?mo2vqy#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?mo2vqy') format('truetype'),
+    url('../fonts/icomoon.woff?mo2vqy') format('woff'),
+    url('../fonts/icomoon.svg?mo2vqy#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook2:before {
+    content: "\ea91";
+}
+.icon-instagram:before {
+content: "\ea92";
+}
+.icon-whatsapp:before {
+content: "\ea93";
+}
+.icon-twitter:before {
+    content: "\ea96";
+}
+
+
+.socialbar {
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+z-index: 100;}
+
+.icon {
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+.icon:first-child {border-radius: 1rem 0 0 0 0 !important;}
+.icon:last-child {border-radius: 0 0 0 0 1rem !important;}
+.icon:hover {padding-right: 3rem;
+border-radius:1rem 0 0 1rem;
+box-shadow: 0 0 .5rem rgba(0,0,0,0.42);}
+
+.icon-facebook2 {background-color:  rgb(85, 85, 85);}
+.icon-instagram {background-color:  rgb(85, 85, 85);}
+.icon-whatsapp {background-color:  rgb(85, 85, 85);}
+.icon-twitter {background-color:  rgb(85, 85, 85);}
+
+.icon-facebook2:hover { color: rgb(5, 21, 250) !important;}
+.icon-instagram:hover { color: rgb(248, 4, 195) !important;}
+.icon-whatsapp:hover { color: rgb(3, 248, 36) !important;}
+.icon-twitter:hover { color: rgb(5, 239, 247) !important;}
