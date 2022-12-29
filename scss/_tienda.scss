@@ -16,9 +16,9 @@
     flex-direction: row;
     align-items: baseline;
     justify-content: space-evenly;
-}
-.card-img-top {
-    height:150px !important; 
+    @media screen and (max-width:990px){
+        display: flex;
+        flex-direction: column;}
 }
 .card {
     margin: 30px !important;
