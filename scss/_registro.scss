@@ -1,0 +1,48 @@
+.cajaForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  fieldset {
+    width: 320px;
+    height: 300px;
+    padding: 5px;
+    margin: 20px 0px;
+    background-color: #fff;
+    border: solid 3px #fd0202;
+    border-radius: 30px;
+  }
+  legend {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .form__p {
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+  }
+  .form__btn {
+    padding: 4px;
+    background-color: #540007;
+    border: solid 3px #fd0202;
+    border-radius: 15px;
+    color: #fff;
+  }
+@media screen and (min-width: 600px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}

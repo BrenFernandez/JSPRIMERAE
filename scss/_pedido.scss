@@ -1,0 +1,82 @@
+.caja__cards {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+}
+.card__producto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem;
+  background-color: #fff;
+  width: 310px;
+  height: 520px;
+  border: solid 4px rgb(255, 82, 246);
+  border-radius: 40px;
+  gap: 0.5rem;
+}
+.card__producto-h3 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.card__producto-boton {
+  padding: 4px;
+  background-color:  rgba(128, 61, 124, 0.623);
+  border: solid 3px rgb(255, 82, 246);
+  border-radius: 15px;
+  color: #fff;
+}
+.card__producto-img {
+  width: 300px;
+  height: 300px;
+}
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+  @media screen and (min-width: 320px) {
+    .grid__cards {
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-items: center;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+  }
+  @media screen and (min-width: 800px) {
+    .caja__cards {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media screen and (min-width: 840px) {
+    .grid__cards {
+      grid-template-columns: 5fr 1fr;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .caja__cards {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  .main3 {background-image: linear-gradient(rgba(0, 0, 0, 0.829),rgba(0, 0, 0, 0)), url(https://img.freepik.com/fotos-premium/pasarela-madera-fondo-playa_90839-277.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    @media screen and (max-width:990px){
+            display: flex;
+            flex-direction: column;}}

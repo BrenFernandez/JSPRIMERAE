@@ -1,0 +1,58 @@
+.caja__carro {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+  .card__carro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3px;
+    margin: 0 20px;
+    background-color: #fff;
+    width: max-width;
+    height: 100px;
+    border: solid 3px rgb(255, 82, 246);
+    border-radius: 40px;
+  }
+  .card__carro-p {
+    font-weight: bold;
+  }
+  .card__carro-img {
+    width: 100px;
+    height: 95px;
+  }
+  .btn__tacho {
+    border: none;
+    width: 25px;
+    height: 30px;
+  }
+  .btn__tacho-tacho {
+    width: 25px;
+    height: 30px;
+  }
+  .btnYTotal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .vaciar__carrito {
+    padding: 4px;
+    background-color: #fff;
+    border: solid 3px rgb(255, 82, 246);
+    border-radius: 15px;
+    color: rgba(128, 61, 124, 0.623);
+  }
+  .totalCarro {
+    width: 200px;
+    height: 40px;
+    padding: 4px;
+    background-color: #fff;
+    border: solid 3px rgb(255, 82, 246);
+    border-radius: 15px;
+    text-align: center;
+    color: rgba(128, 61, 124, 0.623);
+  }
